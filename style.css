@@ -10,7 +10,10 @@
 .rightSideScreen {
     flex: 2 2 auto;
 }
-
+.leftSideBackImage{
+    height: 100vh;
+    width: 33vw;
+}
 
 form {
     display: flex;
