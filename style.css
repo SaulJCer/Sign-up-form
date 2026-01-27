@@ -1,6 +1,6 @@
 .MainPageSeperation {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 .leftSideScreen {
@@ -16,6 +16,12 @@
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topLayerOfForm, .secondLayerOfForm, .thirdLayerOfForm {
     display: flex;
 }
 
