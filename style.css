@@ -8,7 +8,13 @@
 }
 
 .rightSideScreen {
+    display: flex;
+    flex-direction: column;
     flex: 2 2 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 .leftSideBackImage{
     height: 100vh;
