@@ -63,3 +63,11 @@ form {
     flex-direction: column;
 }
 
+
+.createAccountBtn{
+    color: white;
+    font-size: 14px;
+    border: 25px green;
+    background-color: green;
+    border-radius: 25%;
+}
