@@ -47,6 +47,13 @@
     height: 100vh;
 }
 
+.introParagraph {
+    bottom: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 form {
     display: flex;
