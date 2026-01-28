@@ -42,27 +42,41 @@
     display: flex;
     flex-direction: column;
     flex: 2 2 auto;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     height: 100vh;
 }
 
 .introParagraph {
+    margin-top: 12vh;
     bottom: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
+.formTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 form {
     display: flex;
     flex-direction: column;
+    margin-left: 3vh;
 
 }
 
-.topLayerOfForm, .secondLayerOfForm, .thirdLayerOfForm {
+
+.topLayerOfForm {
     display: flex;
+    margin-top: 0.5vh;
+}
+
+.secondLayerOfForm, .thirdLayerOfForm {
+    display: flex;
+    margin-top: 2vh;
 }
 
 .firstName, .lastName, .email, .phoneNumber, .password, .confirmPassword {
@@ -70,6 +84,10 @@ form {
     flex-direction: column;
 }
 
+
+.fourthLayerOfForm {
+    margin-top: 5vh;
+}
 
 .createAccountBtn{
     color: white;
