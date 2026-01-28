@@ -74,9 +74,11 @@ input:focus {
     outline: 2px solid blue;
     
 }
-/* input::selection {
-    border: 1px blue;
-} */
+
+input:required {
+    border-radius: 5px ;
+    outline: 2px solid red;
+}
 
 
 .topLayerOfForm {
