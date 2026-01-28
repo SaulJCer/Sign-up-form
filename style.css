@@ -75,7 +75,7 @@ input:focus {
     
 }
 
-input:required {
+input:invalid {
     border-radius: 5px ;
     outline: 2px solid red;
 }
